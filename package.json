@@ -20,7 +20,7 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "chromatic": "npx chromatic"
+    "chromatic": "chromatic --exit-zero-on-changes --skip 'dependabot/**'"
   },
   "eslintConfig": {
     "extends": [
